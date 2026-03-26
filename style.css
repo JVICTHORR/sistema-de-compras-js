@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* TEMAS */
+body.dark {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+body.light {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+body.dark .container {
+  background: #1e293b;
+}
+
+body.light .container {
+  background: white;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+input:focus {
+  outline: 2px solid #22c55e;
+}
+
+/* BOTÕES */
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #16a34a;
+  transform: scale(1.02);
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.dark li {
+  background: #334155;
+}
+
+body.light li {
+  background: #e2e8f0;
+}
+
+/* BOTÕES DA LISTA */
+.acoes button {
+  margin-left: 5px;
+  padding: 5px 8px;
+}
+
+.acoes button:first-child {
+  background: #3b82f6;
+}
+
+.acoes button:last-child {
+  background: #ef4444;
+}
+
+/* OUTROS */
+#total {
+  font-size: 22px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+#mensagem {
+  height: 20px;
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
