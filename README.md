@@ -43,7 +43,7 @@ Um sistema de compras desenvolvido com **HTML, CSS e JavaScript puro**, com foco
 
 ## 📸 Preview
 
-*(Você pode adicionar uma imagem depois, opcional)*
+![Preview do sistema](preview.png)
 
 ---
 
