@@ -5,7 +5,7 @@ Um sistema de compras desenvolvido com **HTML, CSS e JavaScript puro**, com foco
 ---
 
 ## 🚀 Demonstração
-🔗 (adicione aqui o link depois do deploy)
+🔗 https://jvicthorr.github.io/sistema-de-compras-js/
 
 ---
 
